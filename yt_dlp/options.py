@@ -884,7 +884,7 @@ def create_parser():
 
     subtitles = optparse.OptionGroup(parser, 'Subtitle Options')
     subtitles.add_option(
-        '--write-subs', '--write-srt',
+        '--write-subs', '--write-srt', '--write-subtitles'
         action='store_true', dest='writesubtitles', default=False,
         help='Write subtitle file')
     subtitles.add_option(
